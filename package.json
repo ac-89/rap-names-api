@@ -1,13 +1,8 @@
 {
-<<<<<<< HEAD
   "name": "rap-names-api",
   "version": "1.0.0",
   "description": "",
-=======
-  "name": "starter-micro-api",
-  "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
->>>>>>> 46d63960ac12b51c3a62f80403a73e32b6183a05
+
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,12 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
-=======
->>>>>>> 46d63960ac12b51c3a62f80403a73e32b6183a05
-  }
+ }
 }

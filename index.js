@@ -3,6 +3,10 @@ const app = express();
 const cors = require("cors")
 
 app.use(cors())
+//use static files
+app.use(express.static("js"))
+
+
 
 const PORT = 3000
 

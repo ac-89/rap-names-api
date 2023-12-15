@@ -2,7 +2,10 @@ const express = require("express")
 const app = express();
 const cors = require("cors")
 
-app.use(cors())
+app.use(cors({
+    origin: "https://adorable-yak-pullover.cyclic.app/",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+}))
 //use static files
 app.use(express.static("js"))
 

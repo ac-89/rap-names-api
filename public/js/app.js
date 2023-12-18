@@ -10,6 +10,7 @@ async function apiRequest(){
         document.getElementById('name').innerText = data.birthName
         document.getElementById('age').innerText = data.age
         document.getElementById('birthPlace').innerText = data.birthLocation
+        document.getElementById('img').src = data.imageURL
     }catch(error){
         console.log(error)
     }

@@ -18,14 +18,17 @@ const rappers = {
     "age": 29,
     "birthName": "Sheyaa",
     "birthLocation": "London, UK",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/21_Savage_2018.jpg/220px-21_Savage_2018.jpg"
 }, "chance the rapper":{
     "age": 28,
     "birthName": "Chancelor Bennett",
     "birthLocation": "Chicago, Illinois",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Chance_the_Rapper_2018_February.png/220px-Chance_the_Rapper_2018_February.png"
 },"50 cent":{
     "age": 48,
     "birthName": "Curtis James Jackson III",
     "birthLocation": "New York City, U.S.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/50_Cent_in_2018.png/220px-50_Cent_in_2018.png"
 }  
 }
 

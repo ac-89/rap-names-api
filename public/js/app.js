@@ -7,7 +7,7 @@ async function apiRequest(){
         const data = await response.json()
 
         console.log(data)
-        document.getElementById('birthName').innerText = data.birthName
+        document.getElementById('name').innerText = data.birthName
         document.getElementById('age').innerText = data.age
         document.getElementById('birthPlace').innerText = data.birthPlace
     }catch(error){

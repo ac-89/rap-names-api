@@ -7,7 +7,7 @@ app.use(cors({
     methods: ["GET", "POST", "PUT", "DELETE"],
 }))
 //use static files
-app.use(express.static("js"))
+app.use(express.static("public"))
 
 
 

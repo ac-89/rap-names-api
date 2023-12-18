@@ -9,7 +9,7 @@ async function apiRequest(){
         console.log(data)
         document.getElementById('name').innerText = data.birthName
         document.getElementById('age').innerText = data.age
-        document.getElementById('birthPlace').innerText = data.birthPlace
+        document.getElementById('birthPlace').innerText = data.birthLocation
     }catch(error){
         console.log(error)
     }
